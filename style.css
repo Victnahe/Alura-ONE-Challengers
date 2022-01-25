@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://store-images.microsoft.com/image/apps.58748.9007199266310913.1fbb0af7-4822-435c-9c3d-21100e6cc1ab.d6297e6c-e412-429c-8733-4b88653c6e47?w=1399&h=787&q=90&format=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 15px;
+  width: 50vw;
+  margin: auto;
+  color:rgb(225, 240, 25)
+  
+
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  /*background-color: blue;*/
+  background: linear-gradient(180deg, #65bce8 0%, #306485 100%);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(80, 2, 2, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+  color:rgb(99, 4, 4)
+}
+
+.wrapper {
+  min-height: calc(100% - 3rem);
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(50, 22, 177);
+  color: white;
+  height: 3rem;
+}
+
+.label{
+  color: aquamarine;
+}
